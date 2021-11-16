@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/red')
 def hello():
     return '''<!DOCTYPE html>
 <html>
