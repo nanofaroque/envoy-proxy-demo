@@ -1,7 +1,8 @@
-FROM node:16
-COPY package*.json ./
+FROM python
 
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["node", "./bin/www"]
+WORKDIR /opt/demo/
+COPY /app .
+
+RUN pip install -r requirements.txt
+
+ENTRYPOINT python app.py
