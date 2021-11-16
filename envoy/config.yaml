@@ -52,7 +52,7 @@ static_resources:
             address:
               socket_address:
                 address: 127.0.0.1
-                port_value: 5000
+                port_value: 3000
 admin:
   address:
     socket_address:
