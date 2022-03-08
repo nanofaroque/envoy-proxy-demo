@@ -20,3 +20,13 @@ It will build and run the application in a container.
 * Install enovy
 * go to envoy directory in this package and run the command below: 
 ```envoy -c config.yaml```
+
+### Verification
+call 
+```
+curl http://localhost:10000/red 
+
+or 
+
+curl http://localhost:1000/green
+```
