@@ -28,5 +28,5 @@ curl http://localhost:10000/red
 
 or 
 
-curl http://localhost:1000/green
+curl http://localhost:10000/green
 ```
